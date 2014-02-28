@@ -1,0 +1,35 @@
+
+# Jekyll
+markdown: redcarpet
+pygments: true
+
+# Website
+url: http://blog.jcmultimedia.com.au
+name: How to make iPhone apps and influence people
+description: Musings on the iOS development process
+author: Jesse Collis
+contact_url: http://about.me/jessedc
+
+permalink: /:year/:month/:title/
+atom_feed: /feed.xml
+
+# Pagination
+paginate: 10
+pagination_dir: /
+
+# Disqus Comments
+disqus_short_name: jessedc
+disqus_show_comment_count: false
+
+# Stackoverflow
+stackoverflow_user_name: jessedc
+stackoverflow_user_id: 184130
+
+# Github repositories
+github_user: jessedc
+github_repo_count: 6
+github_show_profile_link: true
+github_skip_forks: true
+
+# Google Analytics
+google_analytics_tracking_id: UA-11151622-1
