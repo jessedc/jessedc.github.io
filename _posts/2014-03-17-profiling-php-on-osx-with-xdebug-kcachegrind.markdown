@@ -6,9 +6,7 @@ comments: true
 categories: [php]
 ---
 
-# Profiling PHP Apps on OSX 10.9 with Xdebug and Kcachegrind
-
-It's possible to generate Xdebug profiler output and visualise the bottlenecks associated with running any request that's run through the PHP stack.
+It's straight forward to generate Xdebug profiler output and visualise the bottlenecks associated with running any request that's run through the PHP stack.
 
 Here's how you'd install PHP, Xdebug and Kcachegrind (qcachegrind) on OSX 10.9 Mavericks and get some in depth info on your php app.
 
@@ -18,7 +16,7 @@ Here's how you'd install PHP, Xdebug and Kcachegrind (qcachegrind) on OSX 10.9 M
 
 Make sure you have [homebrew](http://brew.sh) installed correctly. 
 
-> The main thing to remember is to add `/usr/local/` to your shell's `$PATH`. Often it's best to have it first so it overloads the system's default applications
+The main thing to remember is to add `/usr/local/` to your shell's `$PATH`. Often it's best to have it first so it overloads the system's default applications. `brew doctor` will complain if this isn't the case.
 
 ## Add PHP Packages to Homebrew
 
@@ -26,7 +24,7 @@ PHP packages of OSX are not available to homebrew by default. The [homebrew-php]
 
 The homebrew-php README is verbose, on Mavericks you only need to run the following:
 
-```shell
+```sh
 brew tap homebrew/dupes
 brew tap homebrew/versions
 brew tap josegonzalez/homebrew-php
@@ -38,7 +36,7 @@ This will give you access to all the [php specific formulas](https://github.com/
 
 Install PHP 5.3.x with the following commands:
 
-```shell
+```sh
 brew install php53
 ```
 
@@ -46,7 +44,7 @@ Once installation is complete the formula tells you what to add to your `httpd.c
 
 You can get back to the post-install info of any homebrew package with `brew info php53`.
 
-```shell
+```sh
 # To enable PHP in Apache add the following to httpd.conf and restart Apache:
 #    LoadModule php5_module    /usr/local/opt/php53/libexec/apache2/libphp5.so
 #
@@ -90,13 +88,13 @@ def install_args
 
 Install the appropriate Xdebug version for php5.3
 
-```shell
+```sh
 brew install php53-xdebug
 ```
 
 The notes from the installation mention the location of the Xdebug config file.
 
-```shell
+```sh
 # To finish installing xdebug for PHP 5.3:
 #  * /usr/local/etc/php/5.3/conf.d/ext-xdebug.ini was created,
 #    do not forget to remove it upon extension removal.
@@ -132,13 +130,13 @@ The preferred way to install [kcachegrind](http://kcachegrind.sourceforge.net/ht
 
 Underneath the hood `qcachegrind` uses graphviz's `dot` application to generate the graphs. `dot` will be available to `qcachegrind` if you've setup your `$PATH` correctly above.
 
-```shell
+```sh
 brew install qcachegrind
 brew install graphviz
 ```
 
 After installation you should have `qcachegrind` in your path and you can launch it with the profile files as the first argument.
 
-```shell
+```sh
 qcachegrind callgrind._bh_apiv1_cafes_371_json.1394929295
 ```
