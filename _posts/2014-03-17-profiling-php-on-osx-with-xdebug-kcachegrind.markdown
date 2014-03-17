@@ -84,7 +84,7 @@ def install_args
     ]
 ```
 
-## 3. Install Xdebug
+## Install Xdebug
 
 Install the appropriate Xdebug version for php5.3
 
@@ -102,7 +102,7 @@ The notes from the installation mention the location of the Xdebug config file.
 
 Restart apache and load up a `phpinfo();` page and you should see references to Xdebug.
 
-## 4. Configure Xdebug to Generate Profile Data
+## Configure Xdebug to Generate Profile Data
 
 All [Xdebug options are well documented](http://xdebug.org/docs/all_settings), below are a minimum set of options to get profile data written.
 
@@ -124,7 +124,7 @@ When you change these settings, restart apache and the changes should be visible
 
 If you're not seeing logs straight away, it's more than likely a file permissions issue on the output directory.
 
-### 5. Visualise Profile Data
+## Visualise Profile Data
 
 The preferred way to install [kcachegrind](http://kcachegrind.sourceforge.net/html/Home.html) on OSX is to install `qcachegrind` and AppViz. Both components can be installed with homebrew.
 
