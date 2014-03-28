@@ -1,8 +1,3 @@
 # jessedc.github.io / blog.jmultimedia.com.au
 
-# TODOs
 
-- Licence files
-- Implement categories
-- Remove unused elements in `/css`. I think it's unused unused as the css is precompiled)
-- Submit sitemap to Google.
