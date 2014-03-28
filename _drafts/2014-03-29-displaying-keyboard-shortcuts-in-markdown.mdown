@@ -1,0 +1,30 @@
+---
+layout: post
+title: "Displaying Keyboard Shortcuts in Markdown"
+date: 2014-03-29 09:00
+comments: true
+categories: workflow
+---
+
+Displaying keyboard shortcuts in your Github Flavored Markdown (GFM) or even on Stack Exchange posts is well supported but I often find myself still looking up this information. 
+
+## Access to the keyboard shortcut icons
+
+Looking at a standard (apple) keyboard, you've got the following special keys
+
+- control
+- option (alt)
+- command
+- shift
+- forward delete
+- delete
+- arrow keys
+- tab
+- return
+
+
+
+A typical keyboard shortcut looks like... <kbd>⇧⌘P</kbd>
+
+- KBD Element http://www.w3.org/html/wg/drafts/html/master/text-level-semantics.html#the-kbd-element
+- Keyboard Keys in Markdown2 explains everything - http://markdown2.github.io/site/syntax/
