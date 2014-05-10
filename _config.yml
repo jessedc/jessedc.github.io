@@ -1,7 +1,9 @@
 
 # Jekyll
 markdown: redcarpet
-pygments: true
+highligher: pygments
+gems:
+ - jekyll-sitemap
 
 # Website
 url: http://blog.jcmultimedia.com.au
