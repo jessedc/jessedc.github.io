@@ -3,7 +3,9 @@
 markdown: redcarpet
 highligher: pygments
 gems:
- - jekyll-sitemap
+- jekyll-sitemap
+- jekyll-paginate
+- jekyll-gist
 
 # Website
 url: http://blog.jcmultimedia.com.au
@@ -16,7 +18,7 @@ permalink: /:year/:month/:title/
 atom_feed: /feed.xml
 
 # Pagination
-paginate: 10
+paginate: 5
 pagination_dir: /
 
 # Disqus Comments
