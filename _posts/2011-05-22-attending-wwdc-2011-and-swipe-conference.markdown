@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Attending: WWDC 2011 and Swipe Conference"
-date: 2011-05-22 12:13
+date: 2011-05-22 12:13 +1000
 comments: true
 categories: [events]
 ---

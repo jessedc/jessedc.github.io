@@ -1,16 +1,15 @@
 
 # Jekyll
 markdown: redcarpet
-highligher: pygments
-gems:
+plugins:
 - jekyll-sitemap
 - jekyll-paginate
 - jekyll-gist
 
 # Website
 url: http://blog.jcmultimedia.com.au
-name: How to make iPhone apps and influence people
-description: Musings on the iOS development process
+name: An Internet of things
+description: Musings on iOS development and other bits and pieces
 author: Jesse Collis
 contact_url: http://about.me/jessedc
 

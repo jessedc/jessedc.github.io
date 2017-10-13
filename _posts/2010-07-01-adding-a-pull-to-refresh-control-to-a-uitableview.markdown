@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Adding a 'pull to refresh' control to a UITableView"
-date: 2010-07-01 23:00
+date: 2010-07-01 23:00 +1000
 comments: true
 categories: [open source]
 ---

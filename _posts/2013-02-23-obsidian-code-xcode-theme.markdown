@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "'Obsidian Code' Xcode Theme"
-date: 2013-02-23 22:43
+date: 2013-02-23 22:43 +1000
 comments: true
 categories: [workflow]
 ---

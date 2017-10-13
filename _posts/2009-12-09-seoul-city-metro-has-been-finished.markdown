@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Seoul City Metro has been finished, sent for approval!"
-date: 2009-12-09 23:14
+date: 2009-12-09 23:14 +1000
 comments: true
 categories: [app store]
 ---

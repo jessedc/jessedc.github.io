@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Localising Cocoa Apps - Melbourne Cocoaheads August 2012"
-date: 2013-03-26 20:48
+date: 2013-03-26 20:48 +1000
 comments: true
 categories: [presentations]
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Xcode 4 Shortcuts - Melbourne Cocoaheads April 2011"
-date: 2011-04-19 13:00
+date: 2011-04-19 13:00 +1000
 comments: true
 categories: [presentations]
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Handy TextMate shortcuts and plugins"
-date: 2012-04-02 13:00
+date: 2012-04-02 13:00 +1000
 comments: true
 categories: [workflow]
 ---

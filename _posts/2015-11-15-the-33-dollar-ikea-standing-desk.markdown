@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The $33 IKEA Standing Desk
-date: 2015-11-15 17:00
+date: 2015-11-15 17:00 +1000
 comments: true
 categories: workflow
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Attending: TEDxCanberra 2010"
-date: 2010-10-10 19:21
+date: 2010-10-10 19:21 +1000
 comments: true
 categories: [events]
 ---

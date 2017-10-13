@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "'Epic refactorings' - Melbourne Cocoaheads June 2011"
-date: 2011-07-01 09:00
+date: 2011-07-01 09:00 +1000
 comments: true
 categories: [presentations]
 published: true

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A lot of transport apps are confusing and inconsistent"
-date: 2009-12-03 17:54
+date: 2009-12-03 17:54 +1000
 comments: true
 categories: [design]
 ---

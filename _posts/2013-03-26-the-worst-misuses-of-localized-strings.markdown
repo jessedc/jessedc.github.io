@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The absolute worst misuses of localised strings"
-date: 2013-03-26 21:47
+date: 2013-03-26 21:47 +1000
 comments: true
 categories: cocoa
 ---

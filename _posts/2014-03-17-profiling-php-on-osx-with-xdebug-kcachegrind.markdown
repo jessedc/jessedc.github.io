@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Profiling PHP Apps on OSX 10.9 with Xdebug and Kcachegrind"
-date: 2014-03-17 09:00
+date: 2014-03-17 09:00 +1000
 comments: true
 categories: [php]
 ---

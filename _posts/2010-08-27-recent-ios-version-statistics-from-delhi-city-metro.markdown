@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Recent iOS version statistics from Delhi City Metro"
-date: 2010-08-27 13:00
+date: 2010-08-27 13:00 +1000
 comments: true
 categories: [stats]
 ---

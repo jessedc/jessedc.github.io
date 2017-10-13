@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Automatically create your iOS Icon.png files with a simple bash script"
-date: 2011-02-22 13:00
+date: 2011-02-22 13:00 +1000
 comments: true
 categories: [open source]
 ---
@@ -21,6 +21,6 @@ Checkout the [gist][4]
 **Update 2013** updated with new image sizes.
 
 [1]: http://developer.apple.com/library/mac/#documentation/Darwin/Reference/ManPages/man1/sips.1.html "sips documentation at Apple"
-[2]: http://twitter.com/markbate "@markbate on Twitter""
+[2]: http://twitter.com/markbate "@markbate on Twitter"
 [3]: http://developer.apple.com/library/ios/#documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/App-RelatedResources/App-RelatedResources.html "Application Icon Sizes as documented by Apple"
 [4]: https://gist.github.com/jessedc/837916#file-ios-icon-png-bash-script

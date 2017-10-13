@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Is it worth supporting iOS 3 in 2011?"
-date: 2011-03-20 13:00
+date: 2011-03-20 13:00 +1000
 comments: true
 categories:  [stats]
 ---

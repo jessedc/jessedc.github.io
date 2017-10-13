@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "My favourite TED videos"
-date: 2010-03-20 23:11
+date: 2010-03-20 23:11 +1000
 comments: true
 categories:
 published: false

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Realestate.com.au iPad app goes live"
-date: 2011-08-19 23:21
+date: 2011-08-19 23:21 +1000
 comments: true
 categories:  [app store]
 published: true

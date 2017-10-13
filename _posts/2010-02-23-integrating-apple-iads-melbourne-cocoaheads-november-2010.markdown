@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Integrating Apple iAds - Melbourne Cocoaheads November 2010"
-date: 2010-11-11 13:00
+title: "Integrating Apple iAds - Melbourne CocoaHeads November 2010"
+date: 2010-11-11 13:00 +1000
 comments: true
 categories: [presentations]
 ---
 
-I'm presenting a talk tonight at Melbourne Cocoaheads on implementing Apple's iAd framework. I'll be going over how to add the iAd framework to your project, a handful of things to remember about using iAds and an overview my first hand experiences with Seoul City Metro as an iAd supported app.
+I'm presenting a talk tonight at Melbourne CocoaHeads on implementing Apple's iAd framework. I'll be going over how to add the iAd framework to your project, a handful of things to remember about using iAds and an overview my first hand experiences with Seoul City Metro as an iAd supported app.
 
 I will be showing some code I have recently sourced a named [JCAdSupportedNavController][2] that provides a good way to implement iAds in a UINavigationController. You can check it out on [github][2].
 
