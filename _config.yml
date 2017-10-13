@@ -1,6 +1,4 @@
 
-# Jekyll
-markdown: redcarpet
 plugins:
 - jekyll-sitemap
 - jekyll-paginate
