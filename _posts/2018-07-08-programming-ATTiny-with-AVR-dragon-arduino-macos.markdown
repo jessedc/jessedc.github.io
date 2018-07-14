@@ -6,9 +6,9 @@ comments: true
 categories: IOT
 ---
 
-Recently I've been [working on a project][diy-bms-partslist] utilising ATTiny85 microcontrollers. At first glance it wasn't clear if it was possible to use the [AVR Dragon][avr-dragon] to program them via ISP on macOS High Sierra but after some investigation it's clear the current Arduino toolchain supports the Dragon on macOS for ISP programming quite well.
+Recently I've been [working on a project][diy-bms-partslist] utilising ATTiny85 microcontrollers and Arduino. At first glance it wasn't obvious if it was possible to use the [AVR Dragon][avr-dragon] with Arduino or macOS High Sierra, but after some trial and error it turns out the Arduino toolchain supports programming via ISP on the Dragon quite well!
 
-In addition to ISP programming on macOS, it wasn't immediately clear (to me at least) how to power the ATTiny from the Dragon, I have also covered that below.
+In addition to ISP programming on macOS, there was an extra step required to to power the ATTiny from the Dragon, I have covered that below.
 
 <img src="/images/diybms-avr-dragon-setup.jpg" alt="ATTiny85 connected to AVR Dragon on macOS via ISP" />
 
