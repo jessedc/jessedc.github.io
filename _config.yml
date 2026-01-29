@@ -17,7 +17,6 @@ atom_feed: /feed.xml
 
 # Pagination
 paginate: 5
-pagination_dir: /
 
 # Disqus Comments
 disqus_short_name: jessedc
