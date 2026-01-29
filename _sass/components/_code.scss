@@ -1,9 +1,13 @@
 // Code and syntax highlighting styles
+.highlighter-rouge {
+  position: relative;
+  margin: var(--spacing-lg) 0;
+}
+
 .highlight {
   background-color: var(--color-code-bg);
   border-radius: 8px;
   overflow: hidden;
-  margin: var(--spacing-lg) 0;
   
   pre {
     margin: 0;
@@ -131,7 +135,39 @@
   .vc { color: #008080; } // Name.Variable.Class
   .vg { color: #008080; } // Name.Variable.Global
   .vi { color: #008080; } // Name.Variable.Instance
-  .il { color: #099; } // Literal.Number.Integer.Long
+  .il { color: #005cc5; } // Literal.Number.Integer.Long
+}
+
+// Copy to clipboard button
+.code-copy-button {
+  position: absolute;
+  top: var(--spacing-sm);
+  right: var(--spacing-sm);
+  padding: var(--spacing-xs) var(--spacing-sm);
+  background-color: rgba(27, 31, 35, 0.1);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  color: var(--color-text-light);
+  font-size: var(--font-size-small);
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity var(--transition-speed) var(--transition-timing),
+              background-color var(--transition-speed) var(--transition-timing);
+  
+  &:hover {
+    background-color: var(--color-primary);
+    color: white;
+  }
+  
+  &.copied {
+    background-color: #22863a;
+    color: white;
+  }
+}
+
+.highlighter-rouge:hover .code-copy-button,
+.highlight:hover .code-copy-button {
+  opacity: 1;
 }
 
 // Dark mode syntax highlighting (if needed in future)

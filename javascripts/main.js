@@ -217,6 +217,69 @@
     }
   }
 
+  // Add copy to clipboard functionality for code blocks
+  function initCodeCopyButtons() {
+    // Target Jekyll's code block structure
+    const codeBlocks = document.querySelectorAll('.highlighter-rouge');
+    
+    codeBlocks.forEach(wrapper => {
+      // Skip inline code (they don't have .highlight child)
+      const highlight = wrapper.querySelector('.highlight');
+      if (!highlight) return;
+      
+      // Create copy button
+      const button = document.createElement('button');
+      button.className = 'code-copy-button';
+      button.textContent = 'Copy';
+      button.type = 'button';
+      
+      // Add click handler
+      button.addEventListener('click', async () => {
+        const code = highlight.querySelector('pre code') || highlight.querySelector('pre');
+        if (!code) return;
+        
+        // Get the text content
+        const text = code.textContent || code.innerText;
+        
+        try {
+          // Try modern clipboard API first
+          if (navigator.clipboard && navigator.clipboard.writeText) {
+            await navigator.clipboard.writeText(text);
+          } else {
+            // Fallback for older browsers
+            const textarea = document.createElement('textarea');
+            textarea.value = text;
+            textarea.style.position = 'fixed';
+            textarea.style.opacity = '0';
+            document.body.appendChild(textarea);
+            textarea.select();
+            document.execCommand('copy');
+            document.body.removeChild(textarea);
+          }
+          
+          // Show success feedback
+          button.textContent = 'Copied!';
+          button.classList.add('copied');
+          
+          // Reset after 2 seconds
+          setTimeout(() => {
+            button.textContent = 'Copy';
+            button.classList.remove('copied');
+          }, 2000);
+        } catch (err) {
+          console.error('Failed to copy:', err);
+          button.textContent = 'Failed';
+          setTimeout(() => {
+            button.textContent = 'Copy';
+          }, 2000);
+        }
+      });
+      
+      // Add button to the wrapper
+      wrapper.appendChild(button);
+    });
+  }
+
   // Initialize everything when DOM is ready
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', init);
@@ -229,6 +292,7 @@
     initMobileNav();
     initSidebarToggler();
     addCodeLineNumbers();
+    initCodeCopyButtons();
     fixIOSScaling();
     
     // Load GitHub repos if configured
