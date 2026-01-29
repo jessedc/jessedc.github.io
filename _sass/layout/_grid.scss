@@ -51,6 +51,8 @@ header[role="banner"] {
 #main {
   flex: 1;
   display: flex;
+  justify-content: center;
+  gap: var(--spacing-xxl);
   max-width: var(--max-width);
   width: 100%;
   margin: 0 auto;
@@ -60,30 +62,34 @@ header[role="banner"] {
     padding: var(--spacing-xxl) var(--spacing-lg);
   }
   
+  @media (max-width: $breakpoint-lg) {
+    gap: var(--spacing-xl);
+  }
+  
   @media (max-width: $breakpoint-md) {
     flex-direction: column;
+    align-items: center;
   }
 }
 
 #content {
-  flex: 1;
-  max-width: var(--content-width);
-  margin-right: var(--spacing-xl);
+  flex: 2;
+  max-width: 800px;
   
   @media (max-width: $breakpoint-md) {
     max-width: 100%;
-    margin-right: 0;
     margin-bottom: var(--spacing-xl);
   }
 }
 
 // Sidebar
 aside.sidebar {
-  width: var(--sidebar-width);
-  flex-shrink: 0;
+  flex: 1;
+  max-width: 350px;
+  min-width: 280px;
   
   @media (max-width: $breakpoint-md) {
-    width: 100%;
+    max-width: 100%;
   }
   
   section {
@@ -96,60 +102,33 @@ aside.sidebar {
       font-size: var(--font-size-h4);
       margin-top: 0;
     }
-  }
-}
-
-// Sidebar toggle
-.collapse-sidebar {
-  #main {
-    #content {
-      margin-right: 0;
-      max-width: 100%;
+    
+    // Gravatar image
+    span img {
+      max-width: 120px;
+      border-radius: 50%;
+      margin: var(--spacing-md) auto;
+      display: block;
     }
     
-    aside.sidebar {
-      display: none;
+    // Stack Overflow flair - no rounded corners
+    p img {
+      border-radius: 0;
     }
-  }
-  
-  .toggle-sidebar {
-    &::after {
-      content: '→';
+    
+    // Social links styling
+    .social-links {
+      text-align: center;
+      margin: var(--spacing-md) 0;
+      font-size: var(--font-size-base);
+      
+      a {
+        margin: 0 var(--spacing-xs);
+      }
     }
   }
 }
 
-.toggle-sidebar {
-  position: fixed;
-  top: 50%;
-  right: var(--spacing-md);
-  transform: translateY(-50%);
-  width: 40px;
-  height: 40px;
-  background-color: var(--color-primary);
-  color: white;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  transition: all var(--transition-speed) var(--transition-timing);
-  z-index: 100;
-  
-  @media (max-width: $breakpoint-md) {
-    display: none;
-  }
-  
-  &::after {
-    content: '←';
-    font-size: 1.2rem;
-  }
-  
-  &:hover {
-    background-color: var(--color-primary-light);
-    transform: translateY(-50%) scale(1.1);
-  }
-}
 
 // Footer
 footer[role="contentinfo"] {
