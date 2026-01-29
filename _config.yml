@@ -5,7 +5,7 @@ plugins:
 - jekyll-gist
 
 # Website
-url: https://blog.jcmultimedia.com.au
+url: https://jessedc.dev
 name: An Internet of things
 title: An Internet of things
 description: Musings on iOS and PHP development, IOT and other bits and pieces
@@ -16,11 +16,7 @@ permalink: /:year/:month/:title/
 atom_feed: /feed.xml
 
 # Pagination
-paginate: 5
-
-# Disqus Comments
-disqus_short_name: jessedc
-disqus_show_comment_count: false
+paginate: 10
 
 # Stackoverflow
 stackoverflow_user_name: jessedc
@@ -32,5 +28,5 @@ github_repo_count: 6
 github_show_profile_link: true
 github_skip_forks: true
 
-# Google Analytics
-google_analytics_tracking_id: UA-11151622-1
+exclude:
+- CLAUDE.md
