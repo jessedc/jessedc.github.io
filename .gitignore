@@ -84,3 +84,7 @@ node_modules/
 /build/
 /dist/
 /out/
+
+# AI Tools
+
+CLAUDE.md

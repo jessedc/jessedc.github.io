@@ -14,7 +14,7 @@ In addition to ISP programming on macOS, there was an extra step required to to 
 
 ### macOS, Dragon, ATTiny, Arduino in 2018
 
-Current production versions of the [Arduino IDE][arduino-cc] (1.8.5), it's bundled version of avrdude ([modified][avr-dude-arduino] 6.3) and [ATTinyCore][attiny-core] (1.1.5) all work 'out of the box' and macOS High Sierra (10.13.5) requires no additional kernel extensions or drivers to use the Dragon, unlike the [ATMEL ICE][ice-kext].
+Current production versions of the [Arduino IDE][arduino-cc] (1.8.5), its bundled version of avrdude ([modified][avr-dude-arduino] 6.3) and [ATTinyCore][attiny-core] (1.1.5) all work 'out of the box' and macOS High Sierra (10.13.5) requires no additional kernel extensions or drivers to use the Dragon, unlike the [ATMEL ICE][ice-kext].
 
 Easy to find articles on running the Dragon on macOS were written prior to the renaming of Mac OS X to macOS (2016) and the addition of the *Library Manager* and *Board Manager* in Arduino 1.6.x (early 2015). [James Gregson][james-gregson] (2012) and [Jay Wiggins][jay-wiggins] (2015) write about using the Dragon on *Mac OS X* and demonstrate the installation of avr toolchain components like [avrdude][avrdude], avr-libc, and [avr-crosspack][avr-crosspack] via homebrew rather than using Arduino.
 

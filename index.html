@@ -10,7 +10,7 @@ layout: default
       {% include article.html %}
     </article>
   {% endfor %}
-  <div class="pagination">
+  <nav class="pagination" aria-label="Pagination">
     {% if paginator.next_page %}
       <a class="prev" href="{{paginator.next_page_path}}">&larr; Older</a>
     {% endif %}
@@ -18,6 +18,5 @@ layout: default
     {% if paginator.previous_page %}
     <a class="next" href="{{paginator.previous_page_path}}">Newer &rarr;</a>
     {% endif %}
-  </div>
+  </nav>
 </div>
-{% include sidebar.html %}

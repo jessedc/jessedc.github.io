@@ -1,0 +1,148 @@
+// Modern Grid Layout System
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--spacing-md);
+  
+  @media (min-width: $breakpoint-md) {
+    padding: 0 var(--spacing-lg);
+  }
+}
+
+// Main layout grid
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+// Header
+header[role="banner"] {
+  padding: var(--spacing-xl) 0;
+  text-align: center;
+  background-color: var(--color-background-alt);
+  border-bottom: 1px solid var(--color-border);
+  
+  hgroup {
+    h1 {
+      font-size: var(--font-size-h1);
+      margin: 0;
+      
+      a {
+        text-decoration: none;
+        color: var(--color-text);
+        
+        &:hover {
+          color: var(--color-primary);
+        }
+      }
+    }
+    
+    h2 {
+      font-size: var(--font-size-large);
+      font-weight: normal;
+      color: var(--color-text-light);
+      margin-top: var(--spacing-sm);
+    }
+  }
+}
+
+// Main content area
+#main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  gap: var(--spacing-xxl);
+  max-width: var(--max-width);
+  width: 100%;
+  margin: 0 auto;
+  padding: var(--spacing-xl) var(--spacing-md);
+  
+  @media (min-width: $breakpoint-md) {
+    padding: var(--spacing-xxl) var(--spacing-lg);
+  }
+  
+  @media (max-width: $breakpoint-lg) {
+    gap: var(--spacing-xl);
+  }
+  
+  @media (max-width: $breakpoint-md) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+#content {
+  flex: 2;
+  max-width: 800px;
+  
+  @media (max-width: $breakpoint-md) {
+    max-width: 100%;
+    margin-bottom: var(--spacing-xl);
+  }
+}
+
+// Sidebar
+aside.sidebar {
+  flex: 1;
+  max-width: 350px;
+  min-width: 280px;
+  
+  @media (max-width: $breakpoint-md) {
+    max-width: 100%;
+  }
+  
+  section {
+    margin-bottom: var(--spacing-xl);
+    padding: var(--spacing-lg);
+    background-color: var(--color-background-alt);
+    border-radius: 8px;
+    
+    h1 {
+      font-size: var(--font-size-h4);
+      margin-top: 0;
+    }
+    
+    // Gravatar image
+    span img {
+      max-width: 120px;
+      border-radius: 50%;
+      margin: var(--spacing-md) auto;
+      display: block;
+    }
+    
+    // Stack Overflow flair - no rounded corners
+    p img {
+      border-radius: 0;
+    }
+    
+    // Social links styling
+    .social-links {
+      text-align: center;
+      margin: var(--spacing-md) 0;
+      font-size: var(--font-size-base);
+      
+      a {
+        margin: 0 var(--spacing-xs);
+      }
+    }
+  }
+}
+
+
+// Footer
+footer[role="contentinfo"] {
+  padding: var(--spacing-xl) 0;
+  text-align: center;
+  background-color: var(--color-background-alt);
+  border-top: 1px solid var(--color-border);
+  color: var(--color-text-light);
+  
+  p {
+    margin: 0;
+  }
+  
+  a {
+    color: var(--color-primary);
+  }
+}

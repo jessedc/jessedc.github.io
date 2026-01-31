@@ -1,6 +1,7 @@
 {% capture root_url %}{{ site.root | strip_slash }}{% endcapture %}
 {% include head.html %}
-<body {% if page.body_id %} id="{{ page.body_id }}" {% endif %} {% if page.sidebar == false %} class="no-sidebar" {% endif %} {% if page.sidebar == 'collapse' or site.sidebar == 'collapse' %} class="collapse-sidebar sidebar-footer" {% endif %}>
+<body {% if page.body_id %} id="{{ page.body_id }}" {% endif %} {% if page.sidebar == false %} class="no-sidebar" {% endif %}>
+  <a href="#main" class="skip-link">Skip to main content</a>
   <header role="banner">
   	<hgroup>
   	  <h1><a href="{{ root_url }}/">{{ site.name }}</a></h1>
@@ -8,11 +9,14 @@
 	</hgroup>
   </header>
   <nav role="navigation">{% include navigation.html %}</nav>
-  <div id="main">
+  <main id="main">
     <div id="content">
       {{ content | expand_urls: root_url }}
     </div>
-  </div>
+    {% unless page.sidebar == false %}
+      {% include sidebar.html %}
+    {% endunless %}
+  </main>
   <footer role="contentinfo">{% include footer.html %}</footer>
   {% include after_footer.html %}
 </body>
