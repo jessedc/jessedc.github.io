@@ -34,3 +34,6 @@ github_skip_forks: true
 
 exclude:
 - CLAUDE.md
+- Gemfile
+- Gemfile.lock
+- README.md
