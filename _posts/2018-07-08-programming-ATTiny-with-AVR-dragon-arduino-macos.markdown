@@ -38,9 +38,10 @@ While you're in settings enable "Show verbose output during: upload" to see more
 
 Open a project you'd like to flash to your ATTiny, from the Tools menu set the appropriate board (ATTiny 25/45/85) and select the programmer "AVR Dragon ISP mode (ATTinyCore)".
 
-<img class="center" src="/images/arduino-select-board.jpg" alt="Arduino IDE 1.8.5 Select ATTiny board ATTinyCore" />
-
-<img class="center" src="/images/arduino-select-programmer.jpg" alt="Arduino IDE 1.8.5 Select programmer for AVR Dragon" />
+<div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+  <img src="/images/arduino-select-board.jpg" alt="Arduino IDE 1.8.5 Select ATTiny board ATTinyCore" style="max-width: 48%;" />
+  <img src="/images/arduino-select-programmer.jpg" alt="Arduino IDE 1.8.5 Select programmer for AVR Dragon" style="max-width: 48%;" />
+</div>
 
 Select "Upload" and if you've set verbose mode as highlighted above, you'll see all the verbose output from Arduino (avrdude) communicating with the Dragon.
 

@@ -25,7 +25,7 @@ I set out this weekend to replicate and localise Colin's instructions for the Au
 
 # Measurements
 
-I recommend reading [Colin's article](http://iamnotaprogrammer.com/Ikea-Standing-desk-for-22-dollars.html), as he highlights two main measurements; the keyboard height and the monitor height.
+I recommend reading [Colin's article](https://web.archive.org/web/20150423020345/http://iamnotaprogrammer.com/Ikea-Standing-desk-for-22-dollars.html), as he highlights two main measurements; the keyboard height and the monitor height.
 
 For my setup, I measured the distance from my elbow to the floor and assumed I'd be able to adjust the screen height to suit once I was standing at the desk. The distance from my elbow to the floor was almost exactly 1 meter.
 
