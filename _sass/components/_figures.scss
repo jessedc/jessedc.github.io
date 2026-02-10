@@ -1,0 +1,55 @@
+// Side-by-side image pairs with optional captions
+//
+// Usage:
+//   <div class="image-pair">
+//     <figure>
+//       <img src="..." alt="..." />
+//       <figcaption>Optional caption</figcaption>
+//     </figure>
+//     <figure>
+//       <img src="..." alt="..." />
+//       <figcaption>Optional caption</figcaption>
+//     </figure>
+//   </div>
+
+.image-pair {
+  display: flex;
+  gap: var(--spacing-md);
+  margin: var(--spacing-lg) 0;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  figure {
+    flex: 1 1 0;
+    min-width: 250px;
+    margin: 0;
+
+    img {
+      width: 100%;
+      height: auto;
+      margin: 0;
+    }
+  }
+
+  @media (max-width: $breakpoint-sm) {
+    figure {
+      flex-basis: 100%;
+    }
+  }
+}
+
+.entry-content figure {
+  margin: var(--spacing-lg) 0;
+
+  img {
+    margin: 0;
+  }
+
+  figcaption {
+    text-align: center;
+    font-size: var(--font-size-small);
+    color: var(--color-text-light);
+    font-family: var(--font-sans);
+    margin-top: var(--spacing-sm);
+  }
+}

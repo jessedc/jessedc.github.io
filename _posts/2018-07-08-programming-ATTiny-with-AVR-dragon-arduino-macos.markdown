@@ -10,7 +10,10 @@ Recently I've been [working on a project][diy-bms-partslist] utilising ATTiny85 
 
 In addition to ISP programming on macOS, there was an extra step required to to power the ATTiny from the Dragon, I have covered that below.
 
-<img src="/images/diybms-avr-dragon-setup.jpg" alt="ATTiny85 connected to AVR Dragon on macOS via ISP" />
+<figure>
+  <img src="/images/diybms-avr-dragon-setup.jpg" alt="ATTiny85 connected to AVR Dragon on macOS via ISP" />
+  <figcaption>ATTiny85 connected to AVR Dragon on macOS via ISP</figcaption>
+</figure>
 
 ### macOS, Dragon, ATTiny, Arduino in 2018
 
@@ -25,11 +28,18 @@ Jay mentions as a foot note, the possibility of requiring a custom kernel extens
 
 Download the Arduino IDE package from [arduino.cc][arduino-cc] and add ATTiny support with [SpenceKonde/ATTinyCore][attiny-core] using the "Additional Boards Manager URLs" setting. ATTinyCore has detailed installation [instructions][attiny-core-install].
 
-<img class="center" src="/images/arduino-additional-boardsmanager-urls.jpg" alt="Arduino IDE 1.8.5 Additional Boards Manager URLS settings dialog" />
+<div class="image-pair">
+  <figure>
+    <img src="/images/arduino-additional-boardsmanager-urls.jpg" alt="Arduino IDE 1.8.5 Additional Boards Manager URLS settings dialog" />
+    <figcaption>Additional Boards Manager URLs</figcaption>
+  </figure>
+  <figure>
+    <img src="/images/arduino-ide-verbose-output.jpg" alt="Arduino IDE 1.8.5 Verbose output during upload settings dialog" />
+    <figcaption>Verbose output during upload</figcaption>
+  </figure>
+</div>
 
 While you're in settings enable "Show verbose output during: upload" to see more output when Arduino is interacting with the Dragon via avrdude.
-
-<img class="center" src="/images/arduino-ide-verbose-output.jpg" alt="Arduino IDE 1.8.5 Verbose output during upload settings dialog" />
 
 
 ### Using AVR Dragon as a Programmer
@@ -38,9 +48,15 @@ While you're in settings enable "Show verbose output during: upload" to see more
 
 Open a project you'd like to flash to your ATTiny, from the Tools menu set the appropriate board (ATTiny 25/45/85) and select the programmer "AVR Dragon ISP mode (ATTinyCore)".
 
-<div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
-  <img src="/images/arduino-select-board.jpg" alt="Arduino IDE 1.8.5 Select ATTiny board ATTinyCore" style="max-width: 48%;" />
-  <img src="/images/arduino-select-programmer.jpg" alt="Arduino IDE 1.8.5 Select programmer for AVR Dragon" style="max-width: 48%;" />
+<div class="image-pair">
+  <figure>
+    <img src="/images/arduino-select-board.jpg" alt="Arduino IDE 1.8.5 Select ATTiny board ATTinyCore" />
+    <figcaption>Select ATTiny board</figcaption>
+  </figure>
+  <figure>
+    <img src="/images/arduino-select-programmer.jpg" alt="Arduino IDE 1.8.5 Select programmer for AVR Dragon" />
+    <figcaption>Select AVR Dragon ISP programmer</figcaption>
+  </figure>
 </div>
 
 Select "Upload" and if you've set verbose mode as highlighted above, you'll see all the verbose output from Arduino (avrdude) communicating with the Dragon.
@@ -71,7 +87,10 @@ An article by [Josh Levine][dragon-power] shows an easy way to provide power to 
 
 The image below shows a simple jumper from VCC to JTAG pin 4.
 
-<img class="center" src="/images/dragon-jtag-pin4-vcc.jpg" alt="Power ATTiny with AVR Dragon JTAG pin 4 to VCC" />
+<figure>
+  <img src="/images/dragon-jtag-pin4-vcc.jpg" alt="Power ATTiny with AVR Dragon JTAG pin 4 to VCC" />
+  <figcaption>Jumper from VCC to JTAG pin 4</figcaption>
+</figure>
 
 In hindsight, section 4.5 on SPI programming in the [Dragon User Guide][dragon-user-guide] mentions this power requirement since my ATTiny is essentially 'on board':
 

@@ -12,7 +12,10 @@ I set out this weekend to replicate and localise Colin's instructions for the Au
 
 > All prices mentioned here are in Australian dollars and include 10% GST.
 
-<img src="/images/2015-11-15/IMG_4130.jpg" alt="$33 IKEA Standing Desk" />
+<figure>
+  <img src="/images/2015-11-15/IMG_4130.jpg" alt="$33 IKEA Standing Desk" />
+  <figcaption>The $33 IKEA Standing Desk</figcaption>
+</figure>
 
 # Components
 
@@ -48,9 +51,21 @@ For my setup, I measured the distance from my elbow to the floor and assumed I'd
 - The legs of the top LACK table are hollow. Wood screws with long unthreaded shanks won't work with the hollow legs.
 - The legs on the LACK table don't meet the table top below evenly at 90 degrees, (probably because it's a $7 table). This makes the shelf sit unevenly on the brackets. I just use two screws to secure the shelf, one at each end. The shelf is completely stable even though it's not sitting 100% flush with the brackets on one end.
 
-<img class="left" style="width:45%" src="/images/2015-11-15/IMG_8831.jpg" alt="Nitty gritty details of the keyboard shelf"/>
-<img class="right" style="width:45%" src="/images/2015-11-15/IMG_8832.jpg" alt="Close up of the screws used"/>
-<img class="center" src="/images/2015-11-15/IMG_8833.jpg" alt="$33 IKEA Standing Desk"/>
+<div class="image-pair">
+  <figure>
+    <img src="/images/2015-11-15/IMG_8831.jpg" alt="Nitty gritty details of the keyboard shelf" />
+    <figcaption>Keyboard shelf detail</figcaption>
+  </figure>
+  <figure>
+    <img src="/images/2015-11-15/IMG_8832.jpg" alt="Close up of the screws used" />
+    <figcaption>Close up of the screws used</figcaption>
+  </figure>
+</div>
+
+<figure>
+  <img src="/images/2015-11-15/IMG_8833.jpg" alt="$33 IKEA Standing Desk" />
+  <figcaption>Completed standing desk</figcaption>
+</figure>
 
 # Premium Upgrades
 
@@ -63,7 +78,10 @@ IKEA have a pricier versions of the LACK table and the EKBY shelf that are heavi
 
 # Full Office Fit Out
 
-<img class="center" src="/images/2015-11-15/IMG_8836.jpg" alt="$33 IKEA Standing Desk"/>
+<figure>
+  <img src="/images/2015-11-15/IMG_8836.jpg" alt="Full office fit out with IKEA standing desk" />
+  <figcaption>Full office fit out</figcaption>
+</figure>
 
 I realised that the remainder of my setup is also IKEA:
 
