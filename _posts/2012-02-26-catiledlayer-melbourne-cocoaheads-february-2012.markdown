@@ -14,7 +14,7 @@ The keynote presentation and presentation outline are [available on github][5]. 
 
 ![Photo by Jeff Tan-Ang](/images/AlNY3alCIAI1Zdm.jpg-large.jpeg)
 
-<iframe src="//player.vimeo.com/video/45293931" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/45293931">CATiled Layer - Jesse Collis</a> from <a href="http://vimeo.com/user10513709">Melbourne Cocoaheads</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+<iframe src="//player.vimeo.com/video/45293931" width="500" height="281" frameborder="0" allow="fullscreen"></iframe> <p><a href="http://vimeo.com/45293931">CATiled Layer - Jesse Collis</a> from <a href="http://vimeo.com/user10513709">Melbourne Cocoaheads</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 * Cocoaheads photo credit: [Jeff Tan-Ang][1]
 

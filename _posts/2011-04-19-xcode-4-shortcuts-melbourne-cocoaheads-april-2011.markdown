@@ -14,7 +14,7 @@ The main take away of the whole exercise for me was finally memorising the short
 
 Stew has posted answers to some of the questions over on his [blog][2].
 
-<iframe src="//player.vimeo.com/video/22598371" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/22598371">Cocoaheads 04/2011 - Talk 2 - Xcode 4 Keyboad Shortcuts</a> from <a href="http://vimeo.com/oliverjones">Oliver Jones</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+<iframe src="//player.vimeo.com/video/22598371" width="500" height="281" frameborder="0" allow="fullscreen"></iframe> <p><a href="http://vimeo.com/22598371">Cocoaheads 04/2011 - Talk 2 - Xcode 4 Keyboad Shortcuts</a> from <a href="http://vimeo.com/oliverjones">Oliver Jones</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 [1]: http://twitter.com/StewGleadow "Stew Gleadow on Twitter"
 [2]: http://www.stewgleadow.com/blog/2011/04/19/xcode-4-shortcuts-lightning-talk/

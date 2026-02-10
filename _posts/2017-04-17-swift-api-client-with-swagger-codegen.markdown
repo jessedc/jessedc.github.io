@@ -14,11 +14,11 @@ At the September "Swift 4" meetup I presented a quick five minute demo generatin
 
 <iframe id="ytplayer1" type="text/html" width="640" height="360"
   src="https://www.youtube.com/embed/EzKwi-u9jQo"
-  frameborder="0"></iframe>
+  frameborder="0" allow="fullscreen"></iframe>
 
 <iframe id="ytplayer2" type="text/html" width="640" height="360"
   src="https://www.youtube.com/embed/An47kIMpdjo"
-  frameborder="0"></iframe>
+  frameborder="0" allow="fullscreen"></iframe>
 
 [events api]: https://github.com/melbournecocoa/events-api-spec
 [swagger codegen]: https://github.com/swagger-api/swagger-codegen

@@ -25,7 +25,7 @@ Towards the end I touched on a custom implementation of NSLocalizedString I had 
 
 The presentation slides are up on [github][1] and the video is on [vimeo][3]. The [presentation notes][4] are included with the slides and may be a good reference.
 
-<iframe src="//player.vimeo.com/video/62207569" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/62207569">Localising iOS Apps - Jesse Collis</a> from <a href="http://vimeo.com/user10513709">Melbourne Cocoaheads</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+<iframe src="//player.vimeo.com/video/62207569" width="500" height="281" frameborder="0" allow="fullscreen"></iframe> <p><a href="http://vimeo.com/62207569">Localising iOS Apps - Jesse Collis</a> from <a href="http://vimeo.com/user10513709">Melbourne Cocoaheads</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 [1]: https://github.com/jessedc/JCLocalizedStringPreso
 [2]: https://github.com/jessedc/JCLocalizedString
