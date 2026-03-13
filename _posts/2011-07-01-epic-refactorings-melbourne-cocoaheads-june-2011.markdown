@@ -9,6 +9,8 @@ published: true
 
 Luke Cunningham ([@icaruswings][1]) and I presented a talk at the June 2011 Cocoaheads meet up titled *"Epic refactorings and patterns to make your code awesome!"*.
 
+<!--more-->
+
 <img class="center" src="/images/LightbulbMoment.jpg" title="Luke and Jesse's lightbulb moment" alt="Luke and Jesse's lightbulb moment">
 
 The topic was inspired by a number of design patterns we employed while developing the new realestate.com.au iPad application. We highlighted some of shortcomings we found with UIViewController and demonstrated our end result - **ViewCoordinator**

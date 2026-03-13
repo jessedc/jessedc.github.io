@@ -10,6 +10,8 @@ I put my hand up to do a talk at the February 2012 Melbourne Cocoaheads meet up 
 
 My presentation was a reflection on my own experiences implementing a CATiledLayer backed UIScrollView, highlighting some of finer points of that didn't seem immediately obvious. During the presentation I introduced the a new open source project  [JCTiledScrollView][4] that hopes to be a *best case* implementation of a CATiledLayer backed scroll view.
 
+<!--more-->
+
 The keynote presentation and presentation outline are [available on github][5]. A video of the presentation is up on [Vimeo][6].
 
 ![Photo by Jeff Tan-Ang](/images/AlNY3alCIAI1Zdm.jpg-large.jpeg)

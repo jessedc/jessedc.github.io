@@ -10,6 +10,8 @@ Now that we're well into 2011 the question has to be asked: **Is it still worth
 
 So, are you cutting off paying customers or future paying customers by requiring iOS 4.0 and above?
 
+<!--more-->
+
 ### The tldr;
 
 *No, not really*. iOS 3 numbers are in steady decline and I don't think new or existing apps will be alienating too many active customers by requiring iOS 4+.

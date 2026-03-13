@@ -10,6 +10,8 @@ At the April 2017 Melbourne CocoaHeads meetup I presented on using [Swagger Code
 
 I started with an introduction to Swagger using a spec for the Melbourne CocoaHeads [Events API spec][events api] and implemented a basic [CocoaHeads iOS project][cocoaheads ios].
 
+<!--more-->
+
 At the September "Swift 4" meetup I presented a quick five minute demo generating Swift 4 code from swagger codegen. The main purpose was to show the reduction in the amount of boilerplate code generated for Swift 4.
 
 <iframe id="ytplayer1" type="text/html" width="640" height="360"

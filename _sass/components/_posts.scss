@@ -75,6 +75,15 @@ article {
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
     
+    // Responsive iframes (YouTube embeds, etc.)
+    iframe {
+      max-width: 100%;
+      height: auto;
+      aspect-ratio: 16 / 9;
+      display: block;
+      margin: var(--spacing-lg) 0;
+    }
+
     // Code blocks within posts
     .highlight {
       margin: var(--spacing-lg) 0;

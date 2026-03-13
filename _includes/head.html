@@ -5,8 +5,8 @@
   <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.name }}</title>
   <meta name="author" content="{{ site.author }}">
 
-  {% capture description %}{% if page.description %}{{ page.description }}{% else %}{{ content | raw_content }}{% endif %}{% endcapture %}
-  <meta name="description" content="{{ description | strip_html | condense_spaces | truncate:150 }}">
+  {% capture description %}{% if page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 150 }}{% else %}{{ site.description }}{% endif %}{% endcapture %}
+  <meta name="description" content="{{ description }}">
   {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,6 +18,6 @@
   <script src="{{ root_url }}/javascripts/main.js" defer></script>
   <link href="{{ site.atom_feed }}" rel="alternate" title="{{site.name}}" type="application/atom+xml">
   <!--Fonts from Google's Web font directory-->
-  <link href="https://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic&display=swap" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic&display=swap" rel="stylesheet" type="text/css">
 </head>

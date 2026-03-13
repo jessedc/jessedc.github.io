@@ -8,6 +8,8 @@ categories: cocoa
 
 As a followup to posting my [Localising Cocoa Apps][1] talk I thought I'd outline some of my favourite localised string failures.
 
+<!--more-->
+
 The "I heard literal strings in code are bad" kind of localisation
 
 {% highlight objc %}

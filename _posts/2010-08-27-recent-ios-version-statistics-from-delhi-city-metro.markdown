@@ -10,6 +10,8 @@ Not long after iOS 4.0 was released I pushed a small update to Delhi City Metro 
 
 To add a geographic angle to the iOS usage statistics you can see in the second graph that the majority of Delhi City Metro users are from India.
 
+<!--more-->
+
 ### iOS 4 take up rate
 
 ![](/images/DelhiUsageStastics.png)

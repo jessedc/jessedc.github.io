@@ -3,4 +3,12 @@
   <li><a href="{{ root_url }}/presentations">Presentations</a></li>
   <li><a href="{{ root_url }}/archives">Archives</a></li>
 </ul>
+<fieldset class="mobile-nav">
+  <select onchange="if (this.value) window.location.href=this.value">
+    <option value="">Navigate&hellip;</option>
+    <option value="{{ root_url }}/">Blog</option>
+    <option value="{{ root_url }}/presentations">Presentations</option>
+    <option value="{{ root_url }}/archives">Archives</option>
+  </select>
+</fieldset>
 

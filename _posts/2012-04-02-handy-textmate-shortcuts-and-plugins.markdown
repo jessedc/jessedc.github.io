@@ -8,6 +8,8 @@ categories: [workflow]
 
 If you use TextMate as your main text editor on the mac, make make your life more interesting with these additions:
 
+<!--more-->
+
  - [EGOTextMateFullScreen][1] - Full Screen Support
  - [The MissingDraw][2]
  - [A huge collection of themes][3]

@@ -11,6 +11,8 @@ It's been a number of months and some incredibly late nights in the making but t
 
 I joined the REA Group mobile team back in March 2011 to help with the continuing development of their iPhone app, and after a UI uplift release for the iPhone we started working on a universal iPad app. After some hiccups along the way, we managed to deliver a brilliant looking, stable app that I'm really proud to have worked on. I'd say it's reset the bar for iOS property apps and is streets above the competition.
 
+<!--more-->
+
 The REA Mobile team is lead by Kevin O'Neill ([@kevinoneill][2]), second chaired by Luke Cunningham ([@icaruswings][3]) and backed up by [Steve Hollaway][4], [Ben Thomas][5], [Mike Rowe][6], [Myles Abbot][7], [Mujtaba Hussain][8] and myself.
 
 Some awesome technical bits / features of the app include:

@@ -12,6 +12,8 @@ To coincide with my [February 2012 Cocoaheads][1] presentation I have open sourc
 
 JCTiledScrollView is a set of classes that wrap UIScrollView and CATiledLayer. The project to simplify displaying large images and PDFs at multiple zoom scales. As the project evolves it's moving towards becoming a fully featured custom map view replacement with gestures and annotations.
 
+<!--more-->
+
 Check out JCTiledScrollView on [github][4].
 
 [1]: {% post_url 2012-02-26-catiledlayer-melbourne-cocoaheads-february-2012 %}

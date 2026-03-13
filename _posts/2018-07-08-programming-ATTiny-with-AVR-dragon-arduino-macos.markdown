@@ -10,6 +10,8 @@ Recently I've been [working on a project][diy-bms-partslist] utilising ATTiny85 
 
 In addition to ISP programming on macOS, there was an extra step required to to power the ATTiny from the Dragon, I have covered that below.
 
+<!--more-->
+
 <figure>
   <img src="/images/diybms-avr-dragon-setup.jpg" alt="ATTiny85 connected to AVR Dragon on macOS via ISP" />
   <figcaption>ATTiny85 connected to AVR Dragon on macOS via ISP</figcaption>

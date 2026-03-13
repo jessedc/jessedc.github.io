@@ -10,6 +10,8 @@ Today I was tooling around with some interface concepts and playing with apps li
 
 As it turns out it wasn't as difficult as I thought; There were already a couple of elegant solutions out and about. The first example I found was by [Oliver Dropnik][1], which talked about altering an existing solution posted on git hub by user devindoty called [EGOTablePullViewRefresh][1].
 
+<!--more-->
+
 Oliver's code looked like it was a good addition to devindoty's because he had decided to subclass UITableViewController which leads to a much more complete solution that's easier to move between projects. My only issue with Oliver's code was that it refactored a lot of the underlying implementation, where I didn't see too much wrong with it.
 
 I decided to come up with a half way measure. I moved the majority of the grunt work into a subclass of UITableViewController, cleaned up the Xcode demo project included with the source code and pushed it all back up to github. If you're at at all interested in this, I'd suggest checking out [my fork][3] of the EGOTablePullViewRefresh project.

@@ -10,6 +10,8 @@ I was recently inspired by the sheer simplicity of [$22 IKEA Standing desk](http
 
 I set out this weekend to replicate and localise Colin's instructions for the Australian IKEA shopper. Colin's original $22 USD price point holds up perfectly in 2015. Converted to Australian dollars, we have the **$33 IKEA Standing Desk**.
 
+<!--more-->
+
 > All prices mentioned here are in Australian dollars and include 10% GST.
 
 <figure>
