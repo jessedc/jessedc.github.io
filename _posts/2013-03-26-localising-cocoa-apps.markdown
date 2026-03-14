@@ -15,9 +15,9 @@ categories: [presentations]
 
 Back in August I presented some best practices for localising your cocoa apps. The presentation centred around my experiences localising my own apps and the realestate.com.au app. I highlighted how using NSLocalizedString properly (or it's more useful cousin NSLocalizedStringFromTable) can make localisation a lot easier and logical.
 
-<!--more-->
-
 <img class="center" src="/images/LocalisingApps-August2012.jpg" title="Localising Cocoa Apps - Melbourne Cocoaheads August 2012" alt="Localising Cocoa Apps - Melbourne Cocoaheads August 2012">
+
+<!--more-->
 
 The first part of the presentation touched on something most people in the audience could relate too... the [most notorious misuses of NSLocalizedString][5] that I've seen.
 

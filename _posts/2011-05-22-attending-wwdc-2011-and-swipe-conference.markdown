@@ -10,9 +10,9 @@ Just a quick post to highlight some upcoming events I'm getting excited about.
 
 If you're reading this and attending WWDC or Swipe Conference then [hit me up on Twitter][1] and we'll coordinate beers.
 
-<!--more-->
-
 ![WWDC 2011 June 6-10 2011](/images/wwdc-2011.jpg)
+
+<!--more-->
 
 First up is **WWDC 2011** in San Francisco. - I didn't go last year and this year I'm flying up along side a handful of Melbourne iOS developers from the Melbourne Cocoaheads group and the [Itty Bitty Apps][2] guys, [Sean Woodhouse][3] and [Oliver Jones][4]. There's a Pre-WWDC catch up in Richmond/Cremorne in Melbourne on 1/6/11 being organised by [Intunity][5] and I will be attending that too.
 

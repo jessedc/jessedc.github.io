@@ -10,8 +10,6 @@ The IKEA [VINDRIKTNING][ikea-vindriktning] is a simple and cheap ($15 AUD) air q
 
 I have published a small project based on the excellent work of Soren Beye in the [Hypfer/esp8266-vindriktning-particle-sensor][hypfer-repo] project that wraps the functionality into a custom [ESPHome external component][esphome-external-components] that can be pulled into any ESPHome configuration. The full source is available on [GitHub][github-repo].
 
-<!--more-->
-
 <div class="image-pair">
   <figure>
     <img src="/images/2022-02-04/home_assistant1.png" alt="VINDRIKTNING device in Home Assistant" />
@@ -22,6 +20,8 @@ I have published a small project based on the excellent work of Soren Beye in th
     <figcaption>PM 2.5 over time</figcaption>
   </figure>
 </div>
+
+<!--more-->
 
 ### Why ESPHome?
 

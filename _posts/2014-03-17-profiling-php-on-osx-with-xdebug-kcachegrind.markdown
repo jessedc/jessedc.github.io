@@ -10,9 +10,9 @@ It's straight forward to generate Xdebug profiler output and visualise the bottl
 
 Here's how you'd install PHP, Xdebug and Kcachegrind (qcachegrind) on OSX 10.9 Mavericks and get some in depth info on your php app.
 
-<!--more-->
-
 <img class="center" src="/images/2014-03-17-profiling-php-on-osx-with-xdebug-kcachegrind/qcachegrind.jpg" alt="qcachegrind on OSX 10.9 Mavericks"/>
+
+<!--more-->
 
 ## Install Homebrew
 

@@ -8,9 +8,9 @@ categories: [presentations]
 
 Stewart Gleadow ([@StewGleadow][1]) and I did a quick presentation at Cocoaheads this month highlighting some of our favourite (or more obscure) Xcode 4 shortcuts.
 
-<!--more-->
-
 <img class="center" src="/images//CntrlOptnShftCmd_sm.png" title="The Control, Option, Shift and Command symbols" alt="The Control, Option, Shift and Command symbols">
+
+<!--more-->
 
 The main take away of the whole exercise for me was finally memorising the shortcut symbols. This has vastly improved my ability to remember new shortcuts. I suggest you do the same!
 
