@@ -23,10 +23,6 @@ atom_feed: /feed.xml
 # Pagination
 paginate: 10
 
-# Stackoverflow
-stackoverflow_user_name: jessedc
-stackoverflow_user_id: 184130
-
 # Github repositories
 github_user: jessedc
 github_repo_count: 6
