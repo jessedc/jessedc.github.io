@@ -12,7 +12,7 @@ So, are you cutting off paying customers or future paying customers by requiring
 
 <!--more-->
 
-### The tldr;
+### The TL;DR
 
 *No, not really*. iOS 3 numbers are in steady decline and I don't think new or existing apps will be alienating too many active customers by requiring iOS 4+.
 
@@ -43,4 +43,4 @@ The same split for the iOS 3 distribution shows the latest version of non iPad i
 
 Here's the difference between paying customers and non-paying customers. The results are interesting but as I expected; paying customers are more up to date than non paying customers. There are **half** the number of iOS 3.x users (by percentage) of my $1.99 app as there are using my free app. It makes sense that people who pay for apps keep things up to date more than your user with a phone full of free apps.
 
-[1]: http://engineering.foursquare.com/2011/03/09/objective-c-blocks-in-ios-4-0 "Objective-C Blocks in iOS 4.0 (FourSquare Blog)"
+[1]: http://engineering.foursquare.com/2011/03/09/objective-c-blocks-in-ios-4-0 "Objective-C Blocks in iOS 4.0 (Foursquare Blog)"

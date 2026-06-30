@@ -14,7 +14,7 @@ To add a geographic angle to the iOS usage statistics you can see in the second 
 
 ### iOS 4 take up rate
 
-![](/images/DelhiUsageStastics.png)
+![](/images/DelhiUsageStatistics.png)
 
 Several weeks after the launch of iOS4 the split between iOS 4 and iOS 3 is 4.x 64% and 3.1.x 31% with iOS 3.2 at 4%. (statistics from 13-26/8/2010)
 

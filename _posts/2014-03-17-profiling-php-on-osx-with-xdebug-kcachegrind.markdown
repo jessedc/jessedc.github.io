@@ -6,7 +6,7 @@ comments: true
 categories: [php]
 ---
 
-It's straight forward to generate Xdebug profiler output and visualise the bottlenecks associated with running any request that's run through the PHP stack.
+It's straightforward to generate Xdebug profiler output and visualise the bottlenecks associated with running any request that's run through the PHP stack.
 
 Here's how you'd install PHP, Xdebug and Kcachegrind (qcachegrind) on OSX 10.9 Mavericks and get some in depth info on your php app.
 
@@ -18,11 +18,11 @@ Here's how you'd install PHP, Xdebug and Kcachegrind (qcachegrind) on OSX 10.9 M
 
 Make sure you have [homebrew](http://brew.sh) installed correctly. 
 
-The main thing to remember is to add `/usr/local/` to your shell's `$PATH`. Often it's best to have it first so it overloads the system's default applications. `brew doctor` will complain if this isn't the case.
+The main thing to remember is to add `/usr/local/` to your shell's `$PATH`. Often it's best to have it first so it overrides the system's default applications. `brew doctor` will complain if this isn't the case.
 
 ## Add PHP Packages to Homebrew
 
-PHP packages of OSX are not available to homebrew by default. The [homebrew-php](https://github.com/josegonzalez/homebrew-php) repository is the source of truth for PHP related recepies.
+PHP packages of OSX are not available to homebrew by default. The [homebrew-php](https://github.com/josegonzalez/homebrew-php) repository is the source of truth for PHP related recipes.
 
 The homebrew-php README is verbose, on Mavericks you only need to run the following:
 

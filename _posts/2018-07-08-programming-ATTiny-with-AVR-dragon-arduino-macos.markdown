@@ -8,7 +8,7 @@ categories: IOT
 
 Recently I've been [working on a project][diy-bms-partslist] utilising ATTiny85 microcontrollers and Arduino. At first glance it wasn't obvious if it was possible to use the [AVR Dragon][avr-dragon] with Arduino or macOS High Sierra, but after some trial and error it turns out the Arduino toolchain supports programming via ISP on the Dragon quite well!
 
-In addition to ISP programming on macOS, there was an extra step required to to power the ATTiny from the Dragon, I have covered that below.
+In addition to ISP programming on macOS, there was an extra step required to power the ATTiny from the Dragon, I have covered that below.
 
 <figure>
   <img src="/images/diybms-avr-dragon-setup.jpg" alt="ATTiny85 connected to AVR Dragon on macOS via ISP" />
@@ -79,13 +79,13 @@ ATTiny85 doesn't use a bootloader like a normal Arduino, but the "Burn Bootloade
 
 ### Powering ATTiny from Dragon
 
-Given my ATTiny chips don't have their own power source, after connecting the ISP headers of the Tiny's board and attempting up upload via Dragon I encountered this error:
+Given my ATTiny chips don't have their own power source, after connecting the ISP headers of the Tiny's board and attempting an upload via Dragon I encountered this error:
 
 ```bash
 avrdude: jtagmkII_setparm(): bad response to set parameter command: RSP_NO_TARGET_POWER
 ```
 
-An article by [Josh Levine][dragon-power] shows an easy way to provide power to the ATTiny via the ISP cable by placing a jumper from one of the the Dragon's VCC pins to the unutilised JTAG pin 4. A continuity test with a multimeter shows JTAG pin 4 and SPI pin 2 are connected.
+An article by [Josh Levine][dragon-power] shows an easy way to provide power to the ATTiny via the ISP cable by placing a jumper from one of the Dragon's VCC pins to the unutilised JTAG pin 4. A continuity test with a multimeter shows JTAG pin 4 and SPI pin 2 are connected.
 
 The image below shows a simple jumper from VCC to JTAG pin 4.
 

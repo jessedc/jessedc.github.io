@@ -10,7 +10,7 @@ There's no shortage of apps that will let you sift through lists of stations or 
 
 I've been working with a pile of transport apps while developing Seoul City Metro and I've noticed a lot of apps fall into the trap of implementing too many non standard UI elements or offer too many different ways to do the same thing at the cost of consistency.
 
-Non standard UI elements are quite common. A lot of developers decide not to adhere to the apple Human Interface Guidelines and instead create their own half baked UI elements. I have found some great examples of non-scalable, non standard implementations that are so bland and basic (or inversely crazy and complex) that it's hard to know what you're doing or what you just did. The time required to lean these UIs can be quite frustrating.
+Non standard UI elements are quite common. A lot of developers decide not to adhere to the apple Human Interface Guidelines and instead create their own half baked UI elements. I have found some great examples of non-scalable, non standard implementations that are so bland and basic (or inversely crazy and complex) that it's hard to know what you're doing or what you just did. The time required to learn these UIs can be quite frustrating.
 
  ![Great example of very non-standard UI](/images/IMG_0982.jpg)
 
@@ -26,11 +26,11 @@ A lot of apps have about 3 ways you can enter into the 'route calculation loop' 
 
 Another example is when applications let you tap on a map and use the selection as a 'route start' or 'route end' and then take you to a list or an overlay of the route you've selected. This can be a great feature except when you can get to the same map that behaves differently via three other Tab Bar icons.
 
-In the case of applications with a tab bar interface you can end up with the same screen of information appearing on all or most of the tabs at once by navigating through each Tab Bar icon independently. This is not a good user experience because clicking on a tab bar icon saying 'Stations' can be showing a map if thats how the user haphazardly left it.
+In the case of applications with a tab bar interface you can end up with the same screen of information appearing on all or most of the tabs at once by navigating through each Tab Bar icon independently. This is not a good user experience because clicking on a tab bar icon saying 'Stations' can be showing a map if that's how the user haphazardly left it.
 
-My approach to a transport app focuses on the soul purpose of directing the user towards selecting stations. The user will be given ways to select a station by map, name, or nearby then be presented with the detailed view of the station in order to decide what to do with it. After the user has completed an action their selected station (set as route start, or route end), the user navigates back to the main menu to select a second station. Only when a route has been completed are they presented with a 'view route' option.
+My approach to a transport app focuses on the sole purpose of directing the user towards selecting stations. The user will be given ways to select a station by map, name, or nearby then be presented with the detailed view of the station in order to decide what to do with it. After the user has completed an action their selected station (set as route start, or route end), the user navigates back to the main menu to select a second station. Only when a route has been completed are they presented with a 'view route' option.
 
-![Straight forward navigation structure](/images/SeoulCityMetroV1_eng-1.jpg)
+![Straightforward navigation structure](/images/SeoulCityMetroV1_eng-1.jpg)
 
 So rather than a Tab Bar I have used a single navigation structure to direct the user down a single path at a time to select a station. This provides the user with a linear way of working, keeping them from getting confused between 5 or more tabs that all do similar, overlapping things (and could all be displaying a map at that particular point in time).
 
@@ -38,6 +38,6 @@ I think it saves the user mental processing too. The maximum menu depth a user c
 
 I think simplifying transport apps is the way to go, working and thinking about how to do this all the time.
 
-Seoul City Metro should be hitting the App Store around December 14th, 2011.
+Seoul City Metro should be hitting the App Store around December 14th, 2009.
 
 [1]: http://twitter.com/seoulmetroapp "Seoul City Metro on Twitter"

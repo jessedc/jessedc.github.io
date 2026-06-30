@@ -41,7 +41,7 @@ The "key can be anything but I know what it is"  kind of localisation
 
 {% highlight objc %}
 NSString *aStringFromAPI = [response objectForKey:@"next-title"];
-NSLocalizedString(aStringFromAPI, @"api resposne for `next`");
+NSLocalizedString(aStringFromAPI, @"api response for `next`");
 {% endhighlight %}
 
 # The _grey area_
@@ -80,7 +80,7 @@ button.titleLabel.text = [NSString stringWithFormat:@"4 %@, 3 %@",
 This is in the grey area because at this point we've got localised pieces everywhere. _But it's good that you're trying though..._
 
 {% highlight objc %}
-button.titleLabel.text = [NSLocalizedString stringWithFormat:
+button.titleLabel.text = [NSString stringWithFormat:
                           NSLocalizedString(@"4 %@, 3 %@", @"fruit quantities format string"),
                           NSLocalizedString(@"pineapples",@"plural pineapples"),
                           NSLocalizedString(@"pears",@"plural pears")];

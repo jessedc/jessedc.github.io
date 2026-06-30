@@ -16,7 +16,6 @@ I was originally made aware of TED and TEDx events while in Seoul, reading Chang
 Here's my favourite TED videos in no particular order:
 
  * Steve Jobs: [How to live before you die][4] Stanford University June 2005
- * JK Rowling: [The fringe benefits of failure][3] Harvard University June 2008
  * David Blaine: [How I held my breath for 17 minutes][5] TEDMED2009
  * Bill Gates on [mosquitos, malaria and education][6] TED 2009
  * Bill Gates on energy: [Innovating to zero!][7] TED 2010
@@ -41,7 +40,6 @@ Hans' presentations are fascinating. They're full of great statistics on the wor
 [1]: http://www.web20asia.com/401 "Web 2.0 Asia by Chang W. Kim"
 [2]: http://tedxseoul.com/wp/event-past/115 "TEDx Seoul 2008"
 
-[3]: http://www.ted.com/talks/jk_rowling_the_fringe_benefits_of_failure.html "JK Rowling at Harverd University 2008"
 [4]: http://www.ted.com/talks/lang/eng/steve_jobs_how_to_live_before_you_die.html "Steve Jobs at Stanford University in 2005"
 [5]: http://www.ted.com/talks/lang/eng/david_blaine_how_i_held_my_breath_for_17_min.html "David Blaine at TEDMED 2009"
 [6]: http://www.ted.com/talks/lang/eng/bill_gates_unplugged.html "Bill Gates at TED 2009"

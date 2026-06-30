@@ -8,7 +8,7 @@ categories:  [presentations]
 
 I put my hand up to do a talk at the February 2012 Melbourne Cocoaheads meet up on CATiledLayer. It was a great start to the year with an attendance of about 80 people at RMIT in the CBD.
 
-My presentation was a reflection on my own experiences implementing a CATiledLayer backed UIScrollView, highlighting some of finer points of that didn't seem immediately obvious. During the presentation I introduced the a new open source project  [JCTiledScrollView][4] that hopes to be a *best case* implementation of a CATiledLayer backed scroll view.
+My presentation was a reflection on my own experiences implementing a CATiledLayer backed UIScrollView, highlighting some of the finer points of that didn't seem immediately obvious. During the presentation I introduced a new open source project  [JCTiledScrollView][4] that hopes to be a *best case* implementation of a CATiledLayer backed scroll view.
 
 <!--more-->
 
@@ -22,5 +22,5 @@ The keynote presentation and presentation outline are [available on github][5]. 
 
 [1]: https://twitter.com/jtanang/status/167575320189345792/photo/1 "Photo by Jeff Tan-Ang"
 [4]: https://github.com/jessedc/JCTiledScrollView "JCTiledScrollview on github"
-[5]: https://github.com/jessedc/JCTiledScrollView/tree/master/Cocoheads
+[5]: https://github.com/jessedc/JCTiledScrollView/tree/master/Cocoaheads
 [6]: http://vimeo.com/45293931 "CATiledLayer - Jesse Collis, Melbourne Cocoaheads February 2012"

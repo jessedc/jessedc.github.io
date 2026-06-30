@@ -6,7 +6,7 @@ comments: true
 categories: [workflow]
 ---
 
-If you use TextMate as your main text editor on the mac, make make your life more interesting with these additions:
+If you use TextMate as your main text editor on the mac, make your life more interesting with these additions:
 
 <!--more-->
 
@@ -16,7 +16,7 @@ If you use TextMate as your main text editor on the mac, make make your life mor
 
 Last and certainly not least - my favourite TM shortcut of 2012/2013
 
-> Reveal in project draw **^ ⌘ R (command + control + R)**
+> Reveal in project drawer **^ ⌘ R (command + control + R)**
 
 [1]: https://github.com/enormego/EGOTextMateFullScreen
 [2]: https://github.com/jezdez/textmate-missingdrawer

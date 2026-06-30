@@ -13,9 +13,9 @@ Luke Cunningham ([@icaruswings][1]) and I presented a talk at the June 2011 Coco
 
 <!--more-->
 
-The topic was inspired by a number of design patterns we employed while developing the new realestate.com.au iPad application. We highlighted some of shortcomings we found with UIViewController and demonstrated our end result - **ViewCoordinator**
+The topic was inspired by a number of design patterns we employed while developing the new realestate.com.au iPad application. We highlighted some of the shortcomings we found with UIViewController and demonstrated our end result - **ViewCoordinator**
 
-The book highlighted in the presentation is [Agile Software Development. *Principles, Patterns, and Practices*][5] by Bob Martin. The two design patterns we highlight form the book were [single responsibility][2] and [Interface segregation][3]. 
+The book highlighted in the presentation is [Agile Software Development. *Principles, Patterns, and Practices*][5] by Bob Martin. The two design patterns we highlight from the book were [single responsibility][2] and [Interface segregation][3]. 
 
 <iframe src="//player.vimeo.com/video/26116975" width="500" height="281" frameborder="0" allow="fullscreen"></iframe> <p><a href="http://vimeo.com/26116975">Melbourne Cocoaheads 06/2011 - Talk 2 - Luke Cunningham & Jesse Collis</a> from <a href="http://vimeo.com/oliverjones">Oliver Jones</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
