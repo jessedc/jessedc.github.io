@@ -1,6 +1,5 @@
 # Jesse Collis' Blog
 
-- jessedc.dev
+- [jessedc.dev](https://jessedc.dev)
 - jessedc.github.io
-
-https://www.linkedin.com/in/jessedc/
+- [linkedin/in/jessedc](https://www.linkedin.com/in/jessedc/)
